@@ -2,7 +2,19 @@
 
 A modern, production-ready starter template featuring Next.js 15, Tailwind CSS v4, and shadcn/ui components.
 
-## Features
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## ✨ Features
 
 - ⚡ **Next.js 15** - The latest version of the React framework
 - 🎨 **Tailwind CSS v4** - Utility-first CSS framework with the newest features
@@ -11,42 +23,40 @@ A modern, production-ready starter template featuring Next.js 15, Tailwind CSS v
 - 🔍 **ESLint** - Code linting for better code quality
 - 🚀 **App Router** - Next.js 13+ app directory structure
 
-## Getting Started
-
-### Prerequisites
+## 📋 Prerequisites
 
 - Node.js 18.17 or later
-- npm, yarn, or pnpm
+- npm (comes with Node.js)
 
-### Installation
+## 📦 Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/f3lixel/NEXT.js-shadcn-UI-tailwind.git
-cd NEXT.js-shadcn-UI-tailwind
-```
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/f3lixel/NEXT.js-shadcn-UI-tailwind.git
+   cd NEXT.js-shadcn-UI-tailwind
+   ```
 
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-3. Run the development server:
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+4. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Project Structure
+## 📜 Available Scripts
+
+- `npm run dev` - Start development server at http://localhost:3000
+- `npm run build` - Build the application for production
+- `npm start` - Start the production server
+- `npm run lint` - Run ESLint to check code quality
+
+## 📁 Project Structure
 
 ```
 ├── app/                  # Next.js app directory
@@ -67,31 +77,24 @@ pnpm dev
 └── package.json        # Dependencies and scripts
 ```
 
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-
-## Adding Components
+## 🎨 Adding Components
 
 This template is configured to work with shadcn/ui. To add more components:
 
 1. Browse available components at [ui.shadcn.com](https://ui.shadcn.com)
 2. Add a component using the CLI:
-```bash
-npx shadcn@latest add <component-name>
-```
+   ```bash
+   npx shadcn@latest add <component-name>
+   ```
 
-Example:
+**Examples:**
 ```bash
 npx shadcn@latest add dialog
 npx shadcn@latest add input
 npx shadcn@latest add form
 ```
 
-## Customization
+## ⚙️ Customization
 
 ### Theme
 
@@ -109,19 +112,19 @@ Tailwind CSS v4 uses a new `@theme` directive. Customize your theme in `app/glob
 }
 ```
 
-## Deployment
+## 🚀 Deployment
 
 The easiest way to deploy your Next.js app is to use [Vercel](https://vercel.com):
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/f3lixel/NEXT.js-shadcn-UI-tailwind)
 
-## Learn More
+## 📚 Learn More
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [shadcn/ui Documentation](https://ui.shadcn.com)
 - [TypeScript Documentation](https://www.typescriptlang.org/docs)
 
-## License
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
